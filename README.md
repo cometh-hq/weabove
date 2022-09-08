@@ -20,7 +20,7 @@ By using the https://mint.weabove.io frontend, the application generates the pro
 You can also use a standard library like https://www.npmjs.com/package/merkletreejs to generate proof that a wallet exists in the tree.
 
 ## Can the metadata change between the mint and the reveal?
-No, the contract contains a hash of metadata and the shuffle algorithm that will be used for the reveal. 
+No, the contract contains a [hash](https://etherscan.io/address/0xd0aaaC09E7f9b794FAfA9020a34aD5B906566A5C#readContract#F8) of metadata and the shuffle algorithm that will be used for the reveal. 
 At the time of the reveal, the preimage of the metadata hash (the concatenation of all the meta-data) will be published in order to establish that no post-deployment manipulation has been done.
 
 ## Can the allocation of NFTs be manipulated at the reveal?
