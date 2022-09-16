@@ -1,0 +1,26 @@
+{
+    "name": "WeAbove #####",
+    "description": [
+        "Follow the exciting story of 3 factions (Ordos, Altari, Freo) trying to survive in a world where gravity has been shaken by a powerful mineral. Please Read our Terms & Conditions at : https://weabove.io/cgv.pdf"
+    ],
+    "attributes": [
+        {
+            "trait_type": "Faction",
+            "value": "Ordos"
+        },
+        {
+            "trait_type": "Crystal",
+            "value": "Paxium Nimbus"
+        },
+        {
+            "trait_type": "Element",
+            "value": "Shock lvl.2"
+        },
+        {
+            "trait_type": "Unique",
+            "value": "Andr\u00c3\u00a9 Vidocq"
+        }
+    ],
+    "image": "",
+    "animation_url": ""
+}

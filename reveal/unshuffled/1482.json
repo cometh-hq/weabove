@@ -1,0 +1,54 @@
+{
+    "name": "WeAbove #####",
+    "description": [
+        "Follow the exciting story of 3 factions (Ordos, Altari, Freo) trying to survive in a world where gravity has been shaken by a powerful mineral. Please Read our Terms & Conditions at : https://weabove.io/cgv.pdf"
+    ],
+    "attributes": [
+        {
+            "trait_type": "Faction",
+            "value": "Freo"
+        },
+        {
+            "trait_type": "Skin Alteration",
+            "value": "Skyseer's Mark"
+        },
+        {
+            "trait_type": "Facewear",
+            "value": "Dustmask"
+        },
+        {
+            "trait_type": "Hair",
+            "value": "Red Patch Crop"
+        },
+        {
+            "trait_type": "Accessory",
+            "value": "Pouch"
+        },
+        {
+            "trait_type": "Shirt",
+            "value": "Agri's Shirt"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Expression",
+            "value": "Relaxed"
+        },
+        {
+            "trait_type": "Background",
+            "value": "off-white"
+        },
+        {
+            "trait_type": "Crystal",
+            "value": "Unstable Loadstone"
+        },
+        {
+            "trait_type": "Element",
+            "value": "Graviton Pulse"
+        }
+    ],
+    "image": "",
+    "animation_url": ""
+}

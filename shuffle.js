@@ -96,15 +96,15 @@ function Mash() {
   (typeof module) == 'object' && module,    // present in node.js
   (typeof define) == 'function' && define   // present with an AMD loader
 );
-const METADATA_HASH = '6bd9f1234b3f8058bf968e9ef84290deff7b2770';
-const N = 8751;
+const METADATA_HASH = 'e725ac919f0f6edbf0a5b0fc8f27a802e6cba8c5';
+const N = 1550;
 // we expect seed as a hex representation of a uint256 value, padded with zeros if needed
 const seed = process.env.SEED;
 if (!seed.startsWith('0x') && seed.length != 66) throw new Error('seed must be hex and 32 bytes long');
 const random = alea(process.env.SEED);
 const shuffle = (arr) => {
   for (let m = arr.length - 1; m > 0;)  {
-    const i = Math.floor(random() * m+1);
+    const i = Math.floor(random() * (m+1));
     const temp = arr[i];
     arr[i] = arr[m];
     arr[m] = temp;
