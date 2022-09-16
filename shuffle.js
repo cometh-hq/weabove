@@ -96,7 +96,7 @@ function Mash() {
   (typeof module) == 'object' && module,    // present in node.js
   (typeof define) == 'function' && define   // present with an AMD loader
 );
-const METADATA_HASH = 'e725ac919f0f6edbf0a5b0fc8f27a802e6cba8c5';
+const METADATA_HASH = '94bd5dff0e66b19b8332ca16366de5dabb15004a';
 const N = 1550;
 // we expect seed as a lowercase hex representation of a uint256 value, left padded with zeros if needed
 const seed = (process.env.SEED || '').toLowerCase();
